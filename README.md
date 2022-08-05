@@ -19,7 +19,7 @@ Complete list of features and their description is as follows:
 
 **location** : This column contains the data regarding the location of the property.
 
-**size **: This column contains the details about the number of bedrooms in the flat/house
+**size**: This column contains the details about the number of bedrooms in the flat/house
 
 **society** : This column contains the name of the society the flat/house is a part of. 
 
