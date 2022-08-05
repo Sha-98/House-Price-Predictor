@@ -75,7 +75,7 @@ Now, checking for correlation coefficient among the remaining feature to track/f
 From the correlation heatmap, we can see that column “bhk” and “bath” are highly correlated. To reduce the redundancy of our data we will be removing the “bath” column and keeping the “bhk” column in our dataset. 
 Therefore, our current dataset looks like
 
-<img src="https://user-images.githubusercontent.com/89126969/183067792-504bd509-ed35-44f8-ba87-d13cb8d71100.png" width="700">
+<img src="https://user-images.githubusercontent.com/89126969/183067792-504bd509-ed35-44f8-ba87-d13cb8d71100.png" width="600">
 
 
 
