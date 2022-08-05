@@ -49,16 +49,16 @@ Dropping the features with not a significant impact on our dependent variable an
 Now, the shape of our dataset is reduced to (12710 , 8)
 The descriptive statistics of our dataset can be seen as below
 
-<img src="https://user-images.githubusercontent.com/89126969/183067584-8727c61f-6b75-4d1a-a281-7bff8974f634.png" width="300">
+<img src="https://user-images.githubusercontent.com/89126969/183067584-8727c61f-6b75-4d1a-a281-7bff8974f634.png" width="400">
 
 This stats seems fine for now, but we still have some un-consistency in our dataset. 
 Observing the “size” column, the suffixes are not uniform for all the cells. This can create an issue for our ML model and thus need to be treated.
 
-<img src="https://user-images.githubusercontent.com/89126969/183067628-2bfe5fc3-fb14-4b37-8be8-f2255a7d6c46.png" width="800">
+<img src="https://user-images.githubusercontent.com/89126969/183067628-2bfe5fc3-fb14-4b37-8be8-f2255a7d6c46.png" width="700">
 
 Also, in the “total_sqft” column, some cells have the data in the form of a range. This is not relevant but we cannot remove these cells as these might have very important data in them that contributes to our ML model. This filtering them out and replacing them with the mean of that range can be a good idea.
 
- <img src="https://user-images.githubusercontent.com/89126969/183067676-2d31d38f-2f01-430d-add4-48bca0d89140.png" width="800">
+ <img src="https://user-images.githubusercontent.com/89126969/183067676-2d31d38f-2f01-430d-add4-48bca0d89140.png" width="700">
 
 Now, again removing some unnecessary columns from the dataset which are :
 “area_type” and “availability”. We need to remove them as these are categorical data and encoding them could have increased the dimensionality of our dataset, plus these are not impacting the price much.
